@@ -1,0 +1,124 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px; 
+  padding: 20px; 
+  background-color: #f8f9fa; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+form label {
+  font-weight: bold;
+  margin-bottom: 12px; 
+  color: #333; 
+}
+
+form input,
+form textarea {
+  width: 320px; 
+  padding: 10px;  
+  border-radius: 8px;  
+  border: 1px solid #bbb; 
+  margin-bottom: 15px; 
+  background-color: #fff; 
+  transition: border-color 0.3s ease; 
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #007bff; 
+}
+
+form button {
+  padding: 12px 25px; 
+  background-color: #007bff; 
+  color: #fff;
+  border: none;
+  border-radius: 8px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+  font-size: 16px; 
+}
+
+form button:hover {
+  background-color: #0056b3; 
+}
+
+
+/* CSS for Nav Bar */
+header {
+  background: linear-gradient(180deg, #5ca893, #3b767b); 
+  color: #fff;
+  padding: 15px; 
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); 
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px; 
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.nav-left h1 {
+  font-size: 26px; 
+  margin-right: 25px; 
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 15px; 
+  padding: 8px; 
+  border-radius: 5px; 
+  transition: background-color 0.3s ease; 
+}
+
+nav a:hover {
+  background-color: #444; 
+}
+
+nav a:hover#home-button { 
+  background-color: #666; 
+}
+
+/* CSS for Footer */
+footer {
+  background: linear-gradient(180deg, #3b767b,  #5ca893); 
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.5); 
+  padding: 10px 0; 
+}
+
+footer nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .nav-left {
+  text-align: center;
+}
+
+footer h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 26px; 
+  margin: 5px 0; 
+}
+
+footer h3 {
+  font-size: 16px; 
+  margin: 5px 0 0;
+}

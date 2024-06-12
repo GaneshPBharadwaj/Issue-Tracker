@@ -1,0 +1,62 @@
+.issue-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+  padding: 20px;
+  background-color: #f9f9f9; /* Added */
+  border-radius: 10px; /* Added */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Added */
+}
+
+.issue-form h2 {
+  margin-bottom: 15px;
+  color: #333; /* Changed */
+  font-size: 24px; /* Changed */
+}
+
+.issue-form div {
+  margin-bottom: 20px;
+  width: 100%; /* Added */
+}
+
+.issue-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px; /* Added */
+  color: #555; /* Changed */
+}
+
+.issue-form input[type="text"],
+.issue-form textarea {
+  width: 95%; /* Changed */
+  padding: 10px;
+  border: 1px solid #bbb; /* Changed */
+  border-radius: 6px;
+  background-color: #fff; /* Changed */
+  transition: border-color 0.3s ease; /* Added */
+}
+
+.issue-form input[type="text"]:focus,
+.issue-form textarea:focus {
+  border-color: #007bff; /* Added */
+}
+
+.issue-form textarea {
+  height: 120px; /* Changed */
+}
+
+.issue-form button[type="submit"] {
+  padding: 12px 25px;
+  background-color: #28a745; /* Changed */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px; /* Changed */
+}
+
+.issue-form button[type="submit"]:hover {
+  background-color: #218838; /* Changed */
+}
