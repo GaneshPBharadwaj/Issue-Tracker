@@ -4,13 +4,13 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin: 25px auto; /* Changed */
-  padding: 25px; /* Changed */
-  background-color: #e6e6e6; /* Changed */
-  border-radius: 10px; /* Changed */
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15); /* Changed */
-  animation: fade-in 1.2s ease-in-out; /* Changed */
-  max-width: 800px; /* Changed */
+  margin: 25px auto; 
+  padding: 25px; 
+  background-color: #e6e6e6; 
+  border-radius: 10px; 
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15); 
+  animation: fade-in 1.2s ease-in-out;
+  max-width: 800px;
 }
 
 @keyframes fade-in {
@@ -23,36 +23,36 @@
 }
 
 .project-heading {
-  margin-bottom: 15px; /* Changed */
-  font-size: 24px; /* Added */
-  color: #333; /* Added */
+  margin-bottom: 15px;
+  font-size: 24px; 
+  color: #333; 
 }
 
 .project-name {
-  margin-bottom: 15px; /* Changed */
-  font-size: 20px; /* Added */
-  color: #555; /* Added */
+  margin-bottom: 15px; 
+  font-size: 20px;
+  color: #555; 
 }
 
 .project-info {
-  margin-bottom: 10px; /* Changed */
-  font-size: 18px; /* Added */
+  margin-bottom: 10px; 
+  font-size: 18px; 
 }
 
 .section-heading {
-  padding-left: 25px; /* Changed */
-  font-size: 22px; /* Added */
-  font-weight: bold; /* Added */
-  color: #444; /* Added */
+  padding-left: 25px; 
+  font-size: 22px; 
+  font-weight: bold; 
+  color: #444; 
 }
 
 .issue-list {
-  background-color: #f9f9f9; /* Changed */
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Changed */
-  border-radius: 20px; /* Changed */
-  margin: 10px; /* Changed */
-  padding: 15px; /* Changed */
-  width: 720px; /* Changed */
+  background-color: #f9f9f9; 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+  border-radius: 20px; 
+  margin: 10px;
+  padding: 15px; 
+  width: 720px; 
   max-height: 100%;
   overflow-x: auto;
   overflow-y: hidden;
@@ -63,36 +63,36 @@
 }
 
 .issue-item {
-  margin-bottom: 12px; /* Changed */
+  margin-bottom: 12px; 
   display: inline-block;
-  margin-right: 15px; /* Changed */
-  padding: 8px; /* Added */
-  border-radius: 8px; /* Added */
-  background-color: #fff; /* Added */
+  margin-right: 15px; 
+  padding: 8px;
+  border-radius: 8px; 
+  background-color: #fff; 
 }
 
 .issue-title {
   font-weight: bold;
-  font-size: 18px; /* Added */
+  font-size: 18px; 
 }
 
 .issue-author {
   font-weight: bold;
-  font-size: 16px; /* Added */
-  color: #666; /* Added */
+  font-size: 16px; 
+  color: #666;
 }
 
 .issue-description {
-  margin-bottom: 5px; /* Changed */
+  margin-bottom: 5px; 
 }
 
 .delete-form {
   display: inline-block;
-  margin-right: 12px; /* Changed */
+  margin-right: 12px; 
 }
 
 .button-group {
-  margin-top: 25px; /* Changed */
+  margin-top: 25px; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -100,23 +100,23 @@
 
 .button-group form,
 .button-group a {
-  margin: 0 10px; /* Changed */
+  margin: 0 10px; 
 }
 
 .btn {
   display: inline-block;
-  padding: 12px 25px; /* Changed */
-  background-color: #28a745; /* Changed */
+  padding: 12px 25px; 
+  background-color: #28a745; 
   color: #fff;
   text-decoration: none;
   border: none;
-  border-radius: 8px; /* Changed */
+  border-radius: 8px; 
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .btn-primary:hover {
-  background-color: #218838; /* Changed */
+  background-color: #218838; 
 }
 
 .btn-danger {
@@ -127,7 +127,7 @@
   background-color: #c82333;
 }
 
-/* Hide scrollbar for Chrome, Safari, and Opera */
+
 .issue-list::-webkit-scrollbar {
   width: 0.5em;
   height: 0.5em;
@@ -143,7 +143,6 @@
   background-color: transparent;
 }
 
-/* Hide scrollbar for IE, Edge, and Firefox */
 .issue-list {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
