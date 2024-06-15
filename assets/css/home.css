@@ -17,7 +17,7 @@ h2 {
   justify-content: center;
   align-items: flex-start;
   margin-top: 25px;
-  gap: 20px; /* Added */
+  gap: 20px; 
 }
 
 li {
@@ -31,10 +31,10 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  transition: transform 0.3s; /* Added */
+  transition: transform 0.3s;
 }
 
-li:hover { /* Added */
+li:hover { 
   transform: translateY(-5px);
 }
 
@@ -48,7 +48,7 @@ li:hover { /* Added */
 .project-title {
   font-weight: bold;
   margin-right: 12px;
-  color: #0056b3; /* Changed */
+  color: #0056b3; 
 }
 
 .project-author {
@@ -60,7 +60,7 @@ li:hover { /* Added */
 
 .project-description {
   margin-top: 12px;
-  color: #666; /* Added */
+  color: #666; 
 }
 
 .view-project-button {
@@ -71,7 +71,7 @@ li:hover { /* Added */
   text-decoration: none;
   border-radius: 8px;
   align-self: flex-end;
-  font-size: 14px; /* Changed */
+  font-size: 14px; 
 }
 
 .view-project-button:hover {
@@ -84,7 +84,7 @@ li:hover { /* Added */
   align-items: flex-start;
   flex-wrap: wrap;
   margin-bottom: 25px;
-  gap: 15px; /* Added */
+  gap: 15px; 
 }
 
 .create-button {
@@ -95,7 +95,7 @@ li:hover { /* Added */
   text-decoration: none;
   border-radius: 8px;
   margin-right: 12px;
-  font-size: 16px; /* Changed */
+  font-size: 16px; 
 }
 
 .create-button:hover {
@@ -106,7 +106,7 @@ li:hover { /* Added */
   text-align: center;
   font-size: 28px;
   animation: fade-in 1.5s ease-in-out;
-  color: #444; /* Changed */
+  color: #444; 
 }
 
 @keyframes fade-in {
